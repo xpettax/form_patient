@@ -1,0 +1,89 @@
+html, body {
+  background-color: gray;
+  font-family: helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+#app {
+  display: block;
+  width: 40%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 4px;
+}
+#app .sucefull p {
+  font-size: 20px;
+  padding-top: 68px;
+}
+#app div {
+  margin: 20px 0;
+}
+#app div p {
+  margin-bottom: 6px;
+}
+#app div b {
+  color: #ff6d69;
+}
+#app h1 {
+  margin: 0;
+  padding: 20px 0 0 0;
+}
+#app h2 {
+  margin: 20px 0;
+}
+#app .send-btn {
+  margin-bottom: 20px;
+}
+#app .sucefull {
+  display: block;
+  margin: auto;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 4px;
+}
+#app .sucefull p {
+  padding: 0 0 20px 0;
+  margin: 0;
+}
+#app .invalid {
+  border: 1px solid #dc3545;
+  width: 171px;
+  height: 17px;
+  border-radius: 4px;
+}
+#app .invalidMulti {
+  border: 1px solid #dc3545;
+}
+#app .error-text {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  color: red;
+  text-align: center;
+}
+#app .send-btn {
+  border-radius: 0;
+  border: 1px solid;
+  background-color: #4682B4;
+  color: #fff;
+  padding: 4px;
+}
+
+@media screen and (max-width: 766px) {
+  #app {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 480px) {
+  #app {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 360px) {
+  #app {
+    min-width: 360px;
+  }
+}

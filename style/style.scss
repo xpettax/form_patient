@@ -1,0 +1,106 @@
+html, body {
+    background-color: gray;
+    font-family: helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+  //ОСНОВНАЯ ФОРМА
+#app {
+    display: block;
+    width: 40%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 4px;
+    
+    .sucefull {
+        p {
+          font-size: 20px;
+          padding-top: 68px;
+        }
+    }
+    
+    div {
+        margin: 20px 0;
+        
+        p {
+           margin-bottom: 6px;
+        }
+      
+        b {
+            color: #ff6d69;
+        }
+    }
+    
+      h1 {
+          margin: 0;
+          padding: 20px 0 0 0;
+      }
+
+      h2 {
+          margin: 20px 0;
+      }
+    
+      .send-btn {
+          margin-bottom: 20px;
+      }
+    
+      .sucefull {
+          display: block;
+          margin: auto;
+          width: 100%;
+          background-color: #fff;
+          border-radius: 4px;
+          p {
+              padding: 0 0 20px 0;
+              margin: 0;
+          }
+      }
+
+    .invalid {
+        border: 1px solid #dc3545;
+        width: 171px;
+        height: 17px;
+        border-radius: 4px;
+    }
+
+    .invalidMulti {
+        border: 1px solid #dc3545;
+    }
+
+    .error-text {
+        display: block;
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+        color: red;
+        text-align: center;
+    }
+
+    .send-btn {
+      border-radius: 0;
+      border: 1px solid;
+      background-color: #4682B4;
+      color: #fff;
+      padding: 4px;
+    }
+}
+
+  //ОСНОВНАЯ ФОРМА
+  //АДАПТИВНОСТЬ
+  @media screen and (max-width: 766px) {
+    #app {
+      width: 70%;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    #app {
+      width: 90%;
+    }
+  }
+  @media screen and (max-width: 360px) {
+    #app {
+      min-width: 360px;
+    }
+  }
+  //АДАПТИВНОСТЬ
